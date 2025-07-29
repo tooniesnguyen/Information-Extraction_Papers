@@ -99,7 +99,6 @@ python valid.py --label_json_path /path/to/labels.json --predict_json_path /path
     "accuracy": 0.85,
     "precision": 0.90,
     "recall": 0.80,
-    "low_confidence_compounds": [...]
   }
   ```
 - Saves results to a file if `save_result=True` (configured in `valid.py`).
