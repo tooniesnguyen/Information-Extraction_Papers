@@ -1,0 +1,8 @@
+llms_extract:
+  model_name: "gemini-1.5-flash"
+  max_attempts: 2
+  time_delay: 30
+
+chunk:
+  size: 36000
+  overlap: 2000
