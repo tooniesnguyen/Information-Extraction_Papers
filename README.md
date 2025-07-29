@@ -62,7 +62,6 @@ python extract.py --pdf_path /path/to/your/paper.pdf
         "Species": "Coffea arabica",
         "Plant_Part": "seeds",
         "Organisms": "12.5 mg/kg",
-        "Confidence": 0.9
       }
     ]
   }
@@ -71,7 +70,7 @@ python extract.py --pdf_path /path/to/your/paper.pdf
 
 ## 2. Validation (`valid.py`)
 ### Purpose
-Validates extracted information against labeled data using a transformer-based encoder and cosine similarity, producing metrics and confidence scores.
+Validates extracted information against labeled data using a transformer-based encoder and cosine similarity, producing metrics.
 
 ### Usage
 Run the validation script with specified JSON paths:
