@@ -1,4 +1,5 @@
 import os
+import argparse
 from dotenv import load_dotenv
 
 from src.modules.schema import CompoundList
@@ -13,6 +14,15 @@ from src.services.info_extract import InforExtraction
 from src.utils.reader import load_yaml
 
 def main():
+    parser = argparse.ArgumentParser(description="Extract information from a PDF file.")
+    parser.add_argument(
+        "--pdf_path",
+        type=str,
+        default="data/labeled/paper1.pdf",
+        help="Path to the PDF file for information extraction."
+    )
+    args = parser.parse_args()
+
     load_dotenv()
     api_key = os.getenv("GOOGLE_API_KEY")
     
@@ -24,11 +34,13 @@ def main():
         api_key=api_key,
         max_attempts=config['llms_extract']['max_attempts'],
         time_delay=config['llms_extract']['time_delay']
-        )
+    )
     pdf_ingest = PDFIngestion()
     preprocessing = Preprocessing()
-    chunking = RecursiveChunking(chunk_size=config["chunk"]["size"], 
-                                 chunk_overlap=config["chunk"]["overlap"])
+    chunking = RecursiveChunking(
+        chunk_size=config["chunk"]["size"], 
+        chunk_overlap=config["chunk"]["overlap"]
+    )
     prompt = GeminiPrompt()
     
     info_extraction = InforExtraction(
@@ -39,10 +51,8 @@ def main():
         prompting=prompt
     )
     
-    pdf_path = "data/labeled/paper1.pdf"
-    extracted_data = info_extraction.extract_info(pdf_path, visualize=True)
+    extracted_data = info_extraction.extract_info(args.pdf_path, visualize=True)
     print(extracted_data)
-    
 
 if __name__ == "__main__":
     main()

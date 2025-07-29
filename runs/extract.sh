@@ -1,0 +1,1 @@
+python extract.py --pdf_path data/labeled/paper1.pdf

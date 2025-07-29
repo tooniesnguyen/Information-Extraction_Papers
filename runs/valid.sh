@@ -1,0 +1,1 @@
+python valid.py --label_json_path data/labeled/paper1.json --predict_json_path results/extracted_info.json

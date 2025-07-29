@@ -1,6 +1,5 @@
-from abc import ABC, abstractmethod
-import numpy as np
 from typing import List, Dict, Set, Tuple
+
 from src.bases import BaseValidation, BaseModelEncode, BaseSimilarity
 from src.utils.reader import load_json
 from src.utils.writer import save_json
