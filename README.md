@@ -3,7 +3,7 @@
 This project provides a modular system for extracting structured information from scientific PDFs and validating the results against labeled data. The system is organized into two main scripts: `extract.py` for extraction and `valid.py` for validation.
 
 ## Prerequisites
-- **Python**: 3.8+
+- **Python**: 3.10+
 - **Dependencies**: Install required packages using:
   ```bash
   pip install -r requirements.txt
