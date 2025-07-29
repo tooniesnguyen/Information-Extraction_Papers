@@ -17,12 +17,7 @@ class GeminiPrompt(BaseLLMsPrompt):
         self.query = QUERY
 
     def create_messages(self, chunked_text: str) -> List[dict]:
-        """
-        Create messages for the LLM based on the provided chunked text.
-        
-        :param chunked_text: List of text chunks to be processed.
-        :return: List of messages formatted for the LLM.
-        """
+
         message = [{
                 "role": "user",
                 "content": self.query.format(pdf_text=chunked_text)

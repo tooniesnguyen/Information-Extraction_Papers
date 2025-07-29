@@ -34,7 +34,6 @@ class GeminiExtract(BaseLLMsExtract):
         return first_value
     
     def _invoker_with_retry(self, messages: list):
-        """Gọi API với cơ chế thử lại khi gặp lỗi 429."""
         
         for attempt in range(self.max_attempts):
             try:
