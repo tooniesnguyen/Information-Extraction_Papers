@@ -4,10 +4,9 @@ from src.bases import BaseLLMsPrompt
 
 
 QUERY = """
-    You are an expert assistant tasked with extracting structured information from a scientific paper discussing plant-derived compounds. Read the provided text and extract the following information from schemas provided:
-    If multiple compounds are mentioned, return a list of compounds. If no compounds are found, return an empty list. Ensure the output is structured as a JSON list of objects, each with the fields above.
+    You are an information extraction system designed to parse biochemical data from scientific articles. Your goal is to extract structured information about each biomolecule mentioned in the text.
 
-    Here is the text from the paper:
+
     {pdf_text}
     """
     

@@ -1,92 +1,92 @@
 [
   {
-    "Name": "Ajubractin A",
+    "Name": "ajubractin A",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "4.5mg"
+    "Amount_of_Molecule": "4.5 mg"
   },
   {
-    "Name": "Ajubractin B",
+    "Name": "ajubractin B",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "2.9mg"
+    "Amount_of_Molecule": "2.9 mg"
   },
   {
-    "Name": "Ajubractin C",
+    "Name": "clerodin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.7mg"
+    "Amount_of_Molecule": "0.6 mg"
   },
   {
-    "Name": "Ajubractin D",
+    "Name": "ajubractin C",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.1mg"
+    "Amount_of_Molecule": "14.7 mg"
   },
   {
-    "Name": "Ajubractin E",
+    "Name": "dihydroclerodin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "0.9mg"
-  },
-  {
-    "Name": "Clerodin",
-    "Species": "Ajuga bracteosa",
-    "Organisms": "aerial parts",
-    "Amount_of_Molecule": "0.6mg"
-  },
-  {
-    "Name": "Ajugapitin",
-    "Species": "Ajuga bracteosa",
-    "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.9mg"
-  },
-  {
-    "Name": "14,15-dihydroclerodin",
-    "Species": "Ajuga bracteosa",
-    "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.4mg"
+    "Amount_of_Molecule": "8.1 mg"
   },
   {
     "Name": "3-epi-14,15-dihydrocaryoptin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "4.6mg"
+    "Amount_of_Molecule": "6.2 mg"
   },
   {
-    "Name": "Ivain II",
+    "Name": "ajugapitin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "1.8mg"
+    "Amount_of_Molecule": "5.7 mg"
   },
   {
-    "Name": "14,15-dihydroajugapitin",
+    "Name": "ajubractin D",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "10.6mg"
+    "Amount_of_Molecule": "3.1 mg"
   },
   {
-    "Name": "14-hydro-15-hydroxyajugachinA",
+    "Name": "dihydroajugapitin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "1.6mg"
+    "Amount_of_Molecule": "20.6 mg"
+  },
+  {
+    "Name": "ajubractin E",
+    "Species": "Ajuga bracteosa",
+    "Organisms": "aerial parts",
+    "Amount_of_Molecule": "0.9 mg"
+  },
+  {
+    "Name": "14-hydro-15-hydroxyajugachin A",
+    "Species": "Ajuga bracteosa",
+    "Organisms": "aerial parts",
+    "Amount_of_Molecule": "1.6 mg"
   },
   {
     "Name": "14-hydro-15-hydroxyajugapitin",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.8mg"
+    "Amount_of_Molecule": "3.8 mg"
   },
   {
-    "Name": "15-hydroxyajubractinC",
+    "Name": "15-hydroxyajubractin C",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "3.1mg"
+    "Amount_of_Molecule": "3.1 mg"
   },
   {
-    "Name": "15-epi-lupulinB",
+    "Name": "ivain II",
     "Species": "Ajuga bracteosa",
     "Organisms": "aerial parts",
-    "Amount_of_Molecule": "2.0mg"
+    "Amount_of_Molecule": "3.8 mg"
+  },
+  {
+    "Name": "15-epi-lupulin B",
+    "Species": "Ajuga bracteosa",
+    "Organisms": "aerial parts",
+    "Amount_of_Molecule": "2.0 mg"
   }
 ]

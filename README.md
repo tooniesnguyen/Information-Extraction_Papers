@@ -96,9 +96,9 @@ python valid.py --label_json_path /path/to/labels.json --predict_json_path /path
 - Example output:
   ```json
   {
-    "accuracy": 0.85,
-    "precision": 0.90,
-    "recall": 0.80,
+    "accuracy": 0.93,
+    "precision": 1.0,
+    "recall": 0.88,
   }
   ```
 - Saves results to a file if `save_result=True` (configured in `valid.py`).

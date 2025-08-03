@@ -5,10 +5,10 @@ from typing import Dict, List
 
 
 class Compound(BaseModel):
-    Name: str = Field(description="The name of the main compound or bioactive molecule studied or quantified.")
-    Species: str = Field(description="The scientific name of the plant species from which the compound is extracted.")
-    Organisms: str = Field(description="The part of the plant used in the study (e.g., seeds, leaves, roots).")
-    Amount_of_Molecule: str = Field(description="The quantity of the compound reported, with units (e.g., mg/kg, g/100g).")
+    Name: str = Field(description="The name of the molecule or compound (e.g., \"Linoleic acid\", \"γ-Tocopherol\").")
+    Species: str = Field(description="The full Latin name of the plant species where the compound is found (e.g., Aronia melanocarpa L, Ribes nigrum L, Rosa canina L).")
+    Organisms: str = Field(description="The biological part under investigation (e.g., \"seeds\").")
+    Amount_of_Molecule: str = Field(description=" The reported quantity of the compound, along with its measurement unit (e.g., \"71.2 g/kg oil\", \"36.9 mg/kg\").")
 
 class CompoundList(BaseModel):
     compounds: List[Compound] = Field(description="List of compounds extracted from the paper.", default=[])

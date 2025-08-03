@@ -1,5 +1,5 @@
 llms_extract:
-  model_name: "gemini-1.5-flash"
+  model_name: "gemini-2.5-pro"
   max_attempts: 2
   time_delay: 30
 

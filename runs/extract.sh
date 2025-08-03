@@ -1,1 +1,1 @@
-python extract.py --pdf_path data/labeled/paper1.pdf
+python3 extract.py --pdf_path data/labeled/paper1.pdf

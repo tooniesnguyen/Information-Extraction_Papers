@@ -6,3 +6,4 @@ colorlog
 scikit-learn
 python-dotenv
 sentence-transformers
+langchain
